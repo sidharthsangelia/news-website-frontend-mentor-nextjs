@@ -11,8 +11,6 @@ interface NewsCardProps {
 const LeftNewsCard: React.FC<NewsCardProps> = ({
   image,
   title,
-  author,
-  date,
   description,
 }) => {
   return (

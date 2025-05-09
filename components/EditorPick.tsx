@@ -76,7 +76,7 @@ const editorsPick = [
 function EditorsPick() {
   return (
     <section className="py-12 px-4">
-      <h2 className="text-3xl font-bold mb-8 text-[#111827]">Editor's Pick</h2>
+      <h2 className="text-3xl font-bold mb-8 text-[#111827]">Editor&#39;s Pick</h2>
       <BentoGrid className="lg:grid-rows-2">
         {editorsPick.map((item) => (
           <BentoCard
